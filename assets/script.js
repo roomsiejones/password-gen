@@ -58,8 +58,7 @@ if (!upCase && !lowCase && !numSel && !symbolSel) {
 for (i = 0; i < lenSel; i++){
   passGenerated += usedchars [Math.floor(Math.random() * usedchars.length)];
 };
-    console.log(usedchars);
-    
+ 
     
     return passGenerated;
   }
