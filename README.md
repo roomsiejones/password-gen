@@ -9,7 +9,7 @@ The goal of this project was to recreate a password generator utilizing some bas
 
 This can be used to generate a random password based on criteria you wish to include. 
 
-When the user clicks on the 'generate password' button, the user is presented with prompts that ask length of password, inlude lowercase, include uppercase, include numbers, and special characters.
+When the user clicks on the 'generate password' button, the user is presented with prompts that ask length of password, include lowercase, include uppercase, include numbers, and special characters.
 
 Those types of characters are added to the password pool and one is generated randomly and displayed on the page. 
 
@@ -27,5 +27,11 @@ Ensured the character pool included anything the user clicked on
 
 Created the function that randomized the password from the character pool
 
-Added some comments in code for readablility.
+Added some comments in code for readability.
 
+'''
+![Demo of what the homework should look like](Develop\03-javascript-homework-demo.png)
+
+[Github Repository Link] (https://github.com/roomsiejones/password-gen)
+
+[Github Pages Deployment] (https://roomsiejones.github.io/password-gen/)
