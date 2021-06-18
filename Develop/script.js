@@ -10,8 +10,6 @@ function generatePassword(){
   var passGenerated = "";
   var usedchars = "";
 
-
-
 // Asks user for password length
   var lenSel = prompt("Please type desired password length.", "8-128");
 
@@ -23,10 +21,7 @@ function generatePassword(){
       window.alert ("Value must be between 8-128 characters. Please try again.");
       return;
                                                             };
-
-                              
-
-
+                         
 // Asks if user wants to include uppercase letters
 var upCase = confirm("Do you wish to include uppercase letters? (Click 'Cancel' for no)");
     if (upCase) {
@@ -57,11 +52,16 @@ if (!upCase && !lowCase && !numSel && !symbolSel) {
       return;
 }
 
+
+
 // Runs a randomizer for the generator after all the prompts are answered appropriately.
 for (i = 0; i < lenSel; i++){
   passGenerated += usedchars [Math.floor(Math.random() * usedchars.length)];
 };
-    return passGenerated
+    console.log(usedchars);
+    
+    
+    return passGenerated;
   }
 
 // Write password to the #password input
